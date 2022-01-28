@@ -2,11 +2,13 @@
 body{
     background-color: #171717;
     color: #dbdbdb;
+    overflow-x: hidden;
     font: normal normal 100 14px 'Montserrat', sans-serif; 
 }
 @media (prefers-reduced-motion: no-preference) {
     html {
       scroll-behavior: smooth;
+      overflow-x: hidden;
     }
   }
    
