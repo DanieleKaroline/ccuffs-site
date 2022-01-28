@@ -2,8 +2,6 @@
 body{
     background-color: #171717;
     color: #dbdbdb;
-    width: 100% !important;
-    height: auto;
     font: normal normal 100 14px 'Montserrat', sans-serif; 
 }
 @media (prefers-reduced-motion: no-preference) {
