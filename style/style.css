@@ -3,6 +3,18 @@ body{
     background-color: #171717;
     color: #dbdbdb;
     font: normal normal 100 14px 'Montserrat', sans-serif; 
+    overflow-x: hidden;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(78, 73, 131);
+    border-radius: 30px;
+}
+::-webkit-scrollbar-thumb{
+    background: #ececec;
+    border-radius: 30px;
 }
 @media (prefers-reduced-motion: no-preference) {
     html {
@@ -13,7 +25,7 @@ body{
   :target {
     scroll-margin-top: .8em;
   }
-  
+
 .menu{
     width: 100% !important;
     height: 10% !important;
@@ -31,7 +43,7 @@ body{
     padding-inline: 3%;
 }
 .menu a:hover{
-    color: rgb(66, 55, 165);
+    color: rgb(78, 73, 131);
 }
 
 .i img{
@@ -154,7 +166,7 @@ span{
    .tblp a{
     font: italic normal 100 14px 'Montserrat', sans-serif;  
     text-decoration: none;
-    color: rgb(66, 55, 165);
+    color: rgb(70, 66, 107);
    }
    .tblp a:hover{
      color: #ececec;
